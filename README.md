@@ -3,6 +3,14 @@ Maroni Engine
 
 ## Questions
 
+### What is the difference between a dynamic linked library and a static library?
+
+### Describe a logging system with your own words:
+
+### What is a Design Pattern?
+
+### Name and describe 2 Design Patterns (except façade or adapter):
+
 ### Describe a logging system with your own words:
 A way to catch and display messages occuring while code executes.
 Optimal, there is also an inbuild (threadsave) way to store these Messages (DB or Files)

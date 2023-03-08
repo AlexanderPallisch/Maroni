@@ -4,7 +4,7 @@ Maroni Engine
 ## Questions
 
 ### What is the difference between a dynamic linked library and a static library?
-functionally similar, static linked libraries copy the code directly into the application, a dll is shared between application and loaded into memory only once (different versions might be a problem)
+static linked libraries copy the code directly into the application, a dll is shared between application and loaded into memory only once (different versions might be a problem)
 
 ### Describe a logging system with your own words:
 A logging system provides possibilities to log all kind of information. It is usefull for troubleshooting, monitoring, and security purposes, and provides a detailed record of what happened and when.
@@ -13,8 +13,8 @@ A logging system provides possibilities to log all kind of information. It is us
 solution to a commonly occurring problem
 
 ### Name and describe 2 Design Patterns (except façade or adapter):
-- Factory pattern:
-Interface + implementations -> Factory "produces" objects which implement the interface
+- Iterator pattern:
+used to get a way to access the elements of a collection object in sequential manner without any need to know its underlying representation. 
 - Singleton Pattern
 class which is responsible to create one! single object of itself. provides access without instantiating a new object (private constructor, private static method)
 https://www.tutorialspoint.com/design_pattern/index.htm

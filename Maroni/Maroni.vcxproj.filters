@@ -19,6 +19,10 @@
     <ClInclude Include="src\Maroni\Log.h">
       <Filter>Maroni</Filter>
     </ClInclude>
+    <ClInclude Include="src\Maroni\Events\ApplicationEvent.h" />
+    <ClInclude Include="src\Maroni\Events\Event.h" />
+    <ClInclude Include="src\Maroni\Events\KeyEvent.h" />
+    <ClInclude Include="src\Maroni\Events\MouseEvent.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Maroni\Application.cpp">

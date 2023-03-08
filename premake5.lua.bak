@@ -1,6 +1,6 @@
 workspace "Maroni"
 	architecture "x64"
-    startproject "Sandbox"
+
 	configurations
 	{
 		"Debug",
@@ -27,14 +27,13 @@ project "Maroni"
 
 	includedirs
 	{
-		"%{prj.name}src"
 		"%{prj.name}/vendor/spdlog/include"
 	}
 
 	filter "system:windows"
 		cppdialect "C++17"
 		staticruntime "On"
-		systemversion "latest"
+		systemversion "10.0.19041.0"
 
 		defines
 		{
@@ -76,6 +75,7 @@ project "Sandbox"
 
 	includedirs
 	{
+		"Maroni/src",
 		"Maroni/vendor/spdlog/include"
 	}
 
@@ -87,7 +87,7 @@ project "Sandbox"
 	filter "system:windows"
 		cppdialect "C++17"		
 		staticruntime "On"
-		systemversion "latest"
+		systemversion "10.0"
 
 		defines
 		{
